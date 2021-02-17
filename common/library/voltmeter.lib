@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# PWR
+#
+DEF PWR J 0 40 Y N 1 F N
+F0 "J" 0 150 50 H V C CNN
+F1 "PWR" 0 -150 50 H V C CNN
+F2 "" -50 150 50 H I C CNN
+F3 "" -50 150 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+T 0 -25 -50 31 0 1 1 GND Normal 0 L C
+T 0 -25 50 31 0 1 1 VCC Normal 0 L C
+S -75 100 -50 75 0 1 0 F
+S -50 -100 -75 -75 0 1 0 F
+S -100 -45 -50 -55 1 1 6 N
+S -100 55 -50 45 1 1 6 N
+S -100 100 100 -100 1 1 0 f
+X Pin_1 1 -250 -50 150 R 50 50 1 1 W
+X Pin_2 2 -250 50 150 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+#End Library
