@@ -155,6 +155,28 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
+# mounting_Mounting
+#
+DEF mounting_Mounting M 0 40 Y N 1 F N
+F0 "M" 0 100 50 H I C CNN
+F1 "mounting_Mounting" 0 -75 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+C 0 0 25 0 1 0 N
+C 0 0 50 0 1 0 N
+X Pin_1 1 -200 0 150 R 50 50 1 1 N N
+ENDDRAW
+ENDDEF
+#
 # power_GND
 #
 DEF power_GND #PWR 0 0 Y Y 1 F P
@@ -203,6 +225,43 @@ S -100 55 -50 45 1 1 6 N
 S -100 100 100 -100 1 1 0 f
 X Pin_1 1 -250 -50 150 R 50 50 1 1 W
 X Pin_2 2 -250 50 150 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# voltmeter_module
+#
+DEF voltmeter_module A 0 40 Y Y 1 F N
+F0 "A" 0 290 50 H V C CNN
+F1 "voltmeter_module" 0 -275 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -325 -200 14 1 1 10 F
+C 75 -210 14 1 1 10 F
+C 475 -200 14 1 1 10 F
+T 0 25 -265 31 0 0 0 "DC VOLTMETER" Normal 0 C C
+S -600 250 550 -300 0 0 0 f
+P 2 1 1 10 -575 -200 -525 -50 N
+P 2 1 1 10 -525 -200 -425 -200 N
+P 2 1 1 10 -515 0 -465 150 N
+P 2 1 1 10 -475 -50 -375 -50 N
+P 2 1 1 10 -415 150 -315 150 N
+P 2 1 1 10 -375 -200 -325 -50 N
+P 2 1 1 10 -315 0 -265 150 N
+P 2 1 1 10 -175 -200 -125 -50 N
+P 2 1 1 10 -125 -200 -25 -200 N
+P 2 1 1 10 -115 0 -65 150 N
+P 2 1 1 10 -75 -50 25 -50 N
+P 2 1 1 10 -15 150 85 150 N
+P 2 1 1 10 25 -200 75 -50 N
+P 2 1 1 10 85 0 135 150 N
+P 2 1 1 10 215 -200 265 -50 N
+P 2 1 1 10 265 -200 365 -200 N
+P 2 1 1 10 275 0 325 150 N
+P 2 1 1 10 315 -50 415 -50 N
+P 2 1 1 10 375 150 475 150 N
+P 2 1 1 10 415 -200 465 -50 N
+P 2 1 1 10 475 0 525 150 N
 ENDDRAW
 ENDDEF
 #
