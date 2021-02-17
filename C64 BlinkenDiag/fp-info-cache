@@ -1,4 +1,25 @@
-19030833808165875
+19038776619599996
+6pin_switch
+6pin tactile switch
+
+
+0
+6
+6
+6pin_switch
+dpdt_switch
+
+
+0
+6
+6
+6pin_switch
+dpdt_switch_black
+
+
+0
+6
+6
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -2274,6 +2295,13 @@ speaker CUI
 0
 2
 2
+C64_Exp_Port
+C64_Expansion_Port
+
+
+0
+44
+44
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -83047,3 +83075,10 @@ DEV
 0
 1
 1
+switch_cutout
+SW_PUSH_6mm
+https://www.omron.com/ecb/products/pdf/en-b3f.pdf
+tact sw push 6mm
+0
+4
+2
