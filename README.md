@@ -1,2 +1,3 @@
-https://github.com/svenpetersen1965/Diag64cart
-http://markus.brenner.de/cartridge/
+# C64 BlinkenDiag
+
+I was halfway through sketching out a new PCB based on the details found in an article on [tech.guitarsite.de](http://tech.guitarsite.de/c64_diag_dt_cart.html) before realizing it was already a PCB mentioned at the bottom, more specifically the one by [Diag64cart](https://github.com/svenpetersen1965/Diag64cart) by Sven Petersen (in turn based on [VersaCart64](https://github.com/bwack/Versa64Cart). I did however choose to introduce a few simple features of my own, mainly adding the option of disabling ROM boot - the method used was based on details found on [markus.brenner.de/cartridge](http://markus.brenner.de/cartridge). Secondly, I added a lot of LEDs that might in some way be used to detect bus errors.
