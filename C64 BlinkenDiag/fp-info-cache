@@ -1,11 +1,25 @@
-19043742869919539
-2n3904
-2N3904_TO-92_Horizontal_FlatSideDown
-TO-92 horizontal, leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)
-to-92 sc-43 sc-43a sot54 PA33 transistor
+19040390214576874
+6pin_switch
+6pin tactile switch
+
+
 0
-3
-3
+6
+6
+6pin_switch
+dpdt_switch
+
+
+0
+6
+6
+6pin_switch
+dpdt_switch_black
+
+
+0
+6
+6
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -2281,6 +2295,13 @@ speaker CUI
 0
 2
 2
+C64_Exp_Port
+C64_Expansion_Port
+
+
+0
+44
+44
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -50721,34 +50742,6 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
-Edge-Connect
-edge_pins_1x01
-Straight DE-9 connector, the blue kind with metal shield removed (solder to pads).
-9-pin D-Sub connector straight vertical THT male pitch 2.77x2.84mm mounting holes distance 25mm
-0
-1
-1
-Edge-Connect
-edge_pins_1x02
-Straight DE-9 connector, the blue kind with metal shield removed (solder to pads).
-9-pin D-Sub connector straight vertical THT male pitch 2.77x2.84mm mounting holes distance 25mm
-0
-2
-2
-Edge-Connect
-edge_pins_1x03
-Straight DE-9 connector, the blue kind with metal shield removed (solder to pads).
-9-pin D-Sub connector straight vertical THT male pitch 2.77x2.84mm mounting holes distance 25mm
-0
-3
-3
-Edge-Connect
-edge_pins_1x04
-Straight DE-9 connector, the blue kind with metal shield removed (solder to pads).
-9-pin D-Sub connector straight vertical THT male pitch 2.77x2.84mm mounting holes distance 25mm
-0
-3
-3
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -76796,20 +76789,6 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
-Solder-Bridge
-bridge
-Through hole straight pin header, 1x02, 1.00mm pitch, single row
-Through hole pin header THT 1x02 1.00mm single row
-0
-2
-2
-Solder-Bridge
-select
-Through hole straight pin header, 1x02, 1.00mm pitch, single row
-Through hole pin header THT 1x02 1.00mm single row
-0
-3
-3
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking
@@ -77769,13 +77748,6 @@ Logo WEEE
 0
 0
 0
-TRRS-PJ-320A
-TRRS-PJ-320A
-
-
-0
-4
-4
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -83103,3 +83075,17 @@ DEV
 0
 1
 1
+switch_cutout
+SW_PUSH_6mm
+https://www.omron.com/ecb/products/pdf/en-b3f.pdf
+tact sw push 6mm
+0
+4
+2
+voltmeter
+voltage_display_036
+DC2.5-32V Voltmeter (marked "Voltage Display" or LF-3600-S-V1)
+
+0
+0
+0
