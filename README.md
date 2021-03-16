@@ -30,12 +30,27 @@ The final switch, labelled **ROM_DIS**, allows you to disable the cartridge dete
 The supplied KiCad files should be sufficient as both a schematic and as a  starting point for ordering PCBs (basically you could just zip the contents of the export folder and upload that on a fabrication site), the schematic is also available in [PDF-format](documentation/schematic) and this is what you'll need to print and work your way through this things don't work as expected after assembly.
 
 # 3> BOM
-Most parts should be easy to get a hold of from your favourite local electronic component shop, but given that I don't have access to such shops where I live so everything was based on whatever I could get cheapest from eBay/AliExpress (free shipping, but plan on waiting 3-4 weeks for delivery). Values listed in parenthesis are for features that are not required for basic functionality, but you should read through the section on [building the unit](#1-building-the-unit) to ensure that you're not missing out. As always, plan on adding DIP-sockets in addition to the chips listed.
+Most parts should be easy to get a hold of from your favourite local electronic component shop, but given that I don't have access to such shops where I live so everything was based on whatever I could get cheapest from eBay/AliExpress (free shipping, but plan on waiting 3-4 weeks for delivery). Values listed in parenthesis are for features that are not required for basic cartridge functionality, but you should read through the section on [building the unit](#1-building-the-unit) to ensure that you're not missing out on anything cool. As always, plan on adding DIP-sockets in addition to the chips listed that have been listed.
 
 
 | Reference        | Item                                                           | Count | Order  |
 | ---------------- | -------------------------------------------------------------- | ----- | ------ |
-| PCB              | Fabricate using Gerber files                                   |     1 | PCBWay |
+| PCB              | Fabricate using Gerber files                                   |     1 | PCBWay
+| Faceplate PCB    |                                                                |    (1)| PCBWay
+| A1               | 0.36" Digital Voltmeter Module                                 |    (1)|
+| C1               | 100nF ceramic capacitor (5mm pin spacing)                      |     1 |
+| C2-C5            | 100nF ceramic capacitor (5mm pin spacing)                      |    (4)|
+| C6               | 10uF 25v electrolytic capacitor (2mm pin spacing)              |    (1)|
+| D1-D32           | 5mm LED, preferably non-clear variety                          |   (32)|
+| JP1-JP4          | Male breakable pin header (3 pins)                             |    (4)|
+| JP1-JP4 Jumpers  | 2.54mm pin header jumper (long type when used with faceplate)  |    (4)|
+| R1,R2            | 10k ohm resistor                                               |     2 |
+| RN1-RN4          | A331J 8x 330 ohm resistor network (SIP-9)                      |    (4)|
+| SW1-SW3          | 6pin 8.5mm x 8.5mm latching switch                             |     3 |
+| SW4              | 6x6x8mm momentary switch                                       |    (1)|
+| U1               | 28C256 EEPROM (DIP-28)                                         |    (1)|
+| U2               | 74HCT540 (DIP-20), or 74HCT541 for non-inverting option        |    (1)|
+| U3-U5            | 74HCT573 (DIP-20)                                              |    (3)|
 | Mounting ***     | M3x8mm nylon HEX standoff (F-F)                                |    (4)|
 | Mounting ***     | M3x15mm nylon HEX standoff (M-F)                               |    (4)|
 | Mounting ***     | M3x6mm nylon hex screw                                         |    (4)|
