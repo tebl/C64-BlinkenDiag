@@ -1,6 +1,8 @@
 # C64 BlinkenDiag
-
 I was halfway through sketching out a new PCB based on the details found in an article on [tech.guitarsite.de](http://tech.guitarsite.de/c64_diag_dt_cart.html) before realizing it was already a PCB mentioned at the bottom, more specifically the one by [Diag64cart](https://github.com/svenpetersen1965/Diag64cart) by Sven Petersen (in turn based on [VersaCart64](https://github.com/bwack/Versa64Cart). I did however choose to introduce a few simple features of my own, mainly adding the option of disabling ROM boot - the method used was based on details found on [markus.brenner.de/cartridge](http://markus.brenner.de/cartridge). Secondly, I added a lot of LEDs in the hope that it might in some way be used to detect bus errors.
+
+![C64 BlinkenDiag](https://github.com/tebl/c64-blinkendiag/raw/main/gallery/2021-03-16%2019.02.30.jpg)
+![C64 BlinkenDiag](https://github.com/tebl/c64-blinkendiag/raw/main/gallery/2021-03-16%2023.21.34.jpg)
 
 - [1> Building the unit](#1-building-the-unit)
   - [1.1> Soldering it together](#11-soldering-it-together)
@@ -21,7 +23,7 @@ Add the capacitors that are next to the sockets, these are only for decoupling a
 
 ![Build 002](https://github.com/tebl/c64-blinkendiag/raw/main/gallery/build_002.jpg)
 
-The last thing we need to do is solder in all of those LEDs. Before starting to do so you need to check that they all work, the easiest way is to just use a CR2032 battery and putting it between the legs of the LED - this will help greatly, especially if you got a whole shopping bag full of them for a Dollar, Euro, Pound or whatever it is you usually fling at shopping attendants (actually, please don't do this). One of the legs is called an anode and the other a cathode, but I can never remember which is which - so I'll just say that the short pin goes into the square hole. Only solder on one of the pins, then flip the board over again and heat up the pin by using your finger to push it flush against the board - this ensures that the faceplate will fit properly and you won't have a board where everything looks crooked.
+Now we need to start the long and arduous task of soldering in all of those LEDs, but before we can do so - you  should probably check that they all work, the easiest way is to just use a CR2032 battery and putting it between the legs of the LED. Testing them will avoid soldering in one that is significantly more dim than the rest, especially if you originally got a whole shopping bag full of them for a single Dollar, Euro, Pound or whatever it is you usually fling at shopping attendants (please don't actually do this). One of the legs is called an anode and the other a cathode, but I can never remember which is which - so I'll just say that the short pin goes into the square hole. Only solder on one of the pins, then flip the board over again and heat up the pin by using your finger to push it flush against the board - this ensures that the faceplate will fit properly and you won't have a board where everything looks crooked.
 
 ![Build 003](https://github.com/tebl/c64-blinkendiag/raw/main/gallery/build_003.jpg)
 
