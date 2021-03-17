@@ -62,7 +62,7 @@ Most parts should be easy to get a hold of from your favourite local electronic 
 | Reference        | Item                                                           | Count | Order  |
 | ---------------- | -------------------------------------------------------------- | ----- | ------ |
 | PCB              | Fabricate using Gerber files                                   |     1 | PCBWay
-| Faceplate PCB    |                                                                |    (1)| PCBWay
+| Faceplate PCB    | Fabricate using Gerber files                                   |    (1)| PCBWay
 | A1               | 0.36" Digital Voltmeter Module                                 |    (1)|
 | C1               | 100nF ceramic capacitor (5mm pin spacing)                      |     1 |
 | C2-C5            | 100nF ceramic capacitor (5mm pin spacing)                      |    (4)|
